@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'bahnschrift';
+  src: local('bahnschrift'), url(./assets/fonts/bahnschrift.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'calibri';
+  src: local('calibri'), url(./assets/fonts/calibri.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PiratesBay';
+  src: local('PiratesBay'), url(./assets/fonts/PiratesBay.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PirateKids';
+  src: local('PirateKids'), url(./assets/fonts/PirateKids.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffe5c0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2.1px grey; 
+  border-radius: 2px;
+}
+ 
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  border-radius: 0.7rem;
+  background-color: #df661b;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  opacity: 0;
+}
