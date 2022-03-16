@@ -1,6 +1,6 @@
 const clientConfig = {
     cloud: {
-        secureConnectBundle: "./secure-connect-pirate-land.zip"
+        secureConnectBundle: "PATH_TO_SECURE_BUNDLE"
     },
     credentials: {
         username: process.env.ASTRA_CLIENT_ID,
