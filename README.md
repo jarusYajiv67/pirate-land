@@ -26,7 +26,7 @@ Tokens table is used to store the id and jwt session token of the user which hel
 
 Sockets table has the responsibility to keep track of the id of the socket via which the user is connected. If the user closes the tab without logging out, the socket gets disconnected and upon disconnection the server removes the user session from the db thereby logging out the user
 
-![](db.png)
+![](https://github.com/jarusYajiv67/pirate-land/blob/main/db.PNG)
 
 Games table has got all the necessary details required per game. initial column helps us know the status of the game, whether the players are hiding their instances or finding the other players. With the help of launched column it easy to identify whether the game has started or not. If the game has started it redirects to the play area else stays in the lobby area. The game can only be launched by the user who created the game and with the help of creator column we know whether the user at the lobby can launch the game or not. players is an array of id of the users who are part of the game. With the help of chance_of column we can know its whose chance to make the move
 
