@@ -3,6 +3,7 @@
 #### Table of contents
 ##### 1. Setup and Usage
 ##### 2. Tech Summary
+##### 3. Business
 ### Setup and Usage:
 #### Frontend
 ``` 
@@ -42,3 +43,6 @@ As mentioned earlier Pirate Land's backend is written in JavaScript with NodeJs.
 
 #### Frontend
 Pirate's land frontend is written in JavaScript with ReactJs. styled-components have been used for styling in order to avoid overlapping of the styles upon bundling. To make api call axios is being used rather than the inbuilt fetch api. State of the app is managaed with the help of react context in order to avoid the boilerplate code being produced when used redux. But when the right time comes state management will be switched to redux as it would be easy to manage to new data that will be added. The timeago Js library is used to convert the date object to string indicating the time in natural language. There are 5 pages and 21 components and the routing is managed with react-router-dom
+
+#### Business
+The main source of income for Pirate Land can be generated via advertisements and user subscriptions. The advertisements are location based and are showed when an API call is being processed. The advertisers chooses their desired location and the amount of time they want to show the specified advertisement. Example, Advertiser A pays Pirate Land to show advertisements on City C from K o clock till L o clock. Thus the users(with free subscription) residing in City C will see advertisements from Advertiser A between the time K - L o clock. The cost to advertise varies from time to time and location to location. There are 3 plans provided for the user to subscribe for, namely Free, Pro and Premium and costs 0$, 5$ and 3$ per year respectively. With premium and pro subscriptions the advertisements are removed. With pro subscription the user can have custom pirate (game character) image and can communicate in game with voice chat apart from using the text chat
