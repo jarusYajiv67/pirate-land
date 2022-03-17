@@ -1,9 +1,9 @@
 # Pirate Land
 ### A family game for people of all ages
-#### Table of contents
+#### Table of contents (with TTR)
 ##### 1. Setup and Usage
-##### 2. Tech Summary
-##### 3. Business
+##### 2. Tech Summary (4 min 30 secs)
+##### 3. Business (49 secs)
 ### Setup and Usage:
 #### Frontend
 ``` 
